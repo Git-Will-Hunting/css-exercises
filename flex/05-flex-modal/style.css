@@ -20,8 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 8px;
 }
 
+.modalContent {
+  background: white;
+  width: 480px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.modalTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  
+}
+
+.text {
+  margin-bottom: 8px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -30,6 +52,8 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin: 8px;
+  margin-right: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +67,7 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
+  margin: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +76,9 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+}
+.responses {
+  display: flex;
 }
 
 button.continue {
