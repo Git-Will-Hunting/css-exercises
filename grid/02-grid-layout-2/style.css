@@ -4,6 +4,9 @@ body, html {
 }
 
 .container {
+  display: grid;
+  grid-template: calc(1/8) calc(1/8) calc(5/8) calc(1/8) / calc(1/4) calc(3/4);
+  grid-gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;

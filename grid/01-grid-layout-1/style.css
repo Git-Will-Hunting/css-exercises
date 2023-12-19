@@ -4,6 +4,9 @@ body, html {
 }
 
 .container {
+  display: grid;
+  grid-template: 100px 100px 500px 100px / 300px 900px;
+  grid-gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -21,10 +24,12 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: span 2;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-row: span 2;
 }
 
 .nav {
@@ -44,4 +49,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-column: span 2;
 }
